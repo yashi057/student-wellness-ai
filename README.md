@@ -1,73 +1,161 @@
-# React + TypeScript + Vite
+# 🧠 Zenith Mind – AI Student Mental Wellness Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered mental wellness companion designed to help students manage stress, anxiety, burnout, and emotional challenges during exams, result seasons, and competitive preparation journeys.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://student-wellness-ai-1ll2.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Students preparing for exams such as **JEE, NEET, UPSC, CAT, GATE, CUET, and Board Exams** often face intense academic pressure.
 
-## Expanding the ESLint configuration
+Zenith Mind helps students:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Track their emotional well-being
+* Reflect on their thoughts and feelings
+* Identify stress triggers
+* Receive AI-powered wellness insights
+* Get personalized recommendations for self-care and productivity
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🎯 Wellness Assessment
+
+* Daily mood tracking
+* Stress level analysis
+* Emotional reflection inputs
+
+### 🤖 AI-Powered Insights
+
+* Personalized wellness reports
+* Mental health recommendations
+* Positive reinforcement and motivation
+
+### 📊 Progress Monitoring
+
+* Mood history tracking
+* Wellness trend visualization
+* Reflection history
+
+### 🎨 Modern User Experience
+
+* Clean and responsive UI
+* Mobile-friendly design
+* Interactive dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* CSS
+
+### AI Integration
+
+* Google Gemini API
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yashi057/student-wellness-ai.git
+cd student-wellness-ai
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🔑 Gemini API Setup
+
+Generate a free Gemini API key from Google AI Studio.
+
+Then enter your API key inside the application when prompted.
+
+Google AI Studio:
+https://aistudio.google.com/
+
+---
+
+## 📷 Screenshots
+
+### Home Dashboard
+
+(Add Screenshot Here)
+
+### Wellness Assessment
+
+(Add Screenshot Here)
+
+### AI Wellness Report
+
+(Add Screenshot Here)
+
+---
+
+## 🎯 Future Improvements
+
+* Authentication System
+* Personalized Wellness Plans
+* Mood Analytics Dashboard
+* Study-Wellness Balance Tracking
+* PDF Report Export
+* Daily Reminder Notifications
+* AI Chat Wellness Coach
+
+---
+
+## 💡 Inspiration
+
+This project was inspired by the growing mental health challenges faced by students during competitive exams and result seasons.
+
+The goal is to make emotional support and self-reflection more accessible through AI.
+
+---
+
+## 👩‍💻 Author
+
+**Yashika**
+
+GitHub: https://github.com/yashi057
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐ on GitHub.
