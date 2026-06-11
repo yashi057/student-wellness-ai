@@ -112,21 +112,6 @@ https://aistudio.google.com/
 
 ---
 
-## 📷 Screenshots
-
-### Home Dashboard
-
-(Add Screenshot Here)
-
-### Wellness Assessment
-
-(Add Screenshot Here)
-
-### AI Wellness Report
-
-(Add Screenshot Here)
-
----
 
 ## 🎯 Future Improvements
 
