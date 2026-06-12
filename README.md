@@ -4,7 +4,7 @@ An AI-powered mental wellness companion designed to help students manage stress,
 
 🌐 **Live Demo:** https://student-wellness-ai-1ll2.vercel.app/
 
----
+
 
 ## 📖 Overview
 
@@ -18,7 +18,7 @@ Zenith Mind helps students:
 * Receive AI-powered wellness insights
 * Get personalized recommendations for self-care and productivity
 
----
+
 
 ## ✨ Features
 
@@ -46,7 +46,7 @@ Zenith Mind helps students:
 * Mobile-friendly design
 * Interactive dashboard
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -70,7 +70,7 @@ Zenith Mind helps students:
 * Git
 * GitHub
 
----
+
 
 ## 🚀 Getting Started
 
@@ -99,7 +99,7 @@ npm run dev
 npm run build
 ```
 
----
+
 
 ## 🔑 Gemini API Setup
 
@@ -110,7 +110,7 @@ Then enter your API key inside the application when prompted.
 Google AI Studio:
 https://aistudio.google.com/
 
----
+
 
 
 ## 🎯 Future Improvements
@@ -123,7 +123,6 @@ https://aistudio.google.com/
 * Daily Reminder Notifications
 * AI Chat Wellness Coach
 
----
 
 ## 💡 Inspiration
 
@@ -131,7 +130,7 @@ This project was inspired by the growing mental health challenges faced by stude
 
 The goal is to make emotional support and self-reflection more accessible through AI.
 
----
+
 
 ## 👩‍💻 Author
 
@@ -139,7 +138,6 @@ The goal is to make emotional support and self-reflection more accessible throug
 
 GitHub: https://github.com/yashi057
 
----
 
 ## ⭐ Support
 
